@@ -1,0 +1,58 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-image: url('/assets/got1.jpg');
+    background-size: 100% 120%; 
+    background-position: center;
+  }
+  
+  .form-card, .output-card {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 10px; 
+  }
+  
+  .contact-form {
+    width: 100%;
+  }
+  
+  .full-width {
+    width: 100%; 
+  }
+  
+ 
+  .mat-form-field {
+    width: 90%;
+  }
+  
+  .mat-input-element {
+    height: 40px; 
+    font-size: 16px; 
+  }
+  
+
+
+.output-card {
+  width: 370px;
+  background-color: #fff;
+
+}
+
+
+.output-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.output-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+

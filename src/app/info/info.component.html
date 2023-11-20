@@ -1,0 +1,18 @@
+<div class="textBox">
+    <h1>"Game of Thrones" (GoT) is a popular fantasy television series based on the book series "A Song of Ice and Fire" by George R.R. Martin. Set in the fictional continents of Westeros and Essos, the show depicts the power struggles among noble families for control of the Iron Throne.</h1>
+    <h1> The story is filled with political intrigue, epic battles, and supernatural elements such as dragons and White Walkers. The characters are complex and morally ambiguous, with fan favorites including Jon Snow, Daenerys Targaryen, and Tyrion Lannister.</h1>
+    <h1> The show has garnered a massive following and critical acclaim for its unpredictable plot twists and high production values. However, its final season received mixed reviews, with some fans expressing disappointment with the conclusion. Overall, "Game of Thrones" remains a cultural phenomenon that has left a lasting impact on television.</h1>
+</div>  
+    <div fxLayout="row wrap">
+    <div class="card" *ngFor="let i of info">
+      <mat-card class="mat-card">
+        <mat-card-content>
+          <div class="inf">{{ i.sentence }}</div>
+          <div class="field-name">House Name: {{ i.character.house.name }}</div>
+          <div class="field-name">House Slug: {{ i.character.house.slug }}</div>
+          <div class="field-name">Character Name: {{ i.character.name }}</div>
+          <div class="field-name">Character Slug: {{ i.character.slug }}</div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+</div>

@@ -1,0 +1,42 @@
+  .textBox{
+    margin: 20px;
+    font-size: 10px; 
+    color: #000000;
+    // margin-bottom: 10px;
+  }
+  
+  .card {
+    margin: 20px;
+  }
+  
+  .mat-card {
+    width: 370px; 
+    height: 250px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15); 
+    }
+  }
+  
+  .mat-card-content {
+    padding: 20px; 
+  }
+  
+  .inf {
+    font-size: 20px; 
+    font-weight: bold;
+    color: rgb(151, 55, 55);
+    margin-bottom: 12px;
+  }
+  
+  .field-name {
+    font-size: 16px; 
+
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  
