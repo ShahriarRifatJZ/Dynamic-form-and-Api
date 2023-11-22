@@ -16,6 +16,7 @@ export class ContactUsComponent implements OnInit {
     this.myReactiveForm = new FormGroup({
       'username': new FormControl(),
       'email': new FormControl(),
+      'password': new FormControl(),
       'characters': new FormArray([
         new FormControl()
       ])

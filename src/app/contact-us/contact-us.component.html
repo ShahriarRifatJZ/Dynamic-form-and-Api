@@ -15,7 +15,7 @@
       <br>
 
       <mat-form-field class="full-width">
-        <input matInput placeholder="Did you like got?" formControlName="email">
+        <input matInput placeholder="Enter STRONG password like your character." formControlName="password">
       </mat-form-field>
       <br>
   
@@ -51,7 +51,9 @@
       <div class="output-detail">
         <p><strong>Your Email:</strong> {{ myReactiveForm.get('email').value }}</p>
       </div>
-
+      <div class="output-detail">
+        <p><strong>Your Password(Do not share):</strong> {{ myReactiveForm.get('password').value }}</p>
+      </div>
       <h3>Your Favorite Characters:</h3>
       <div *ngFor="let character of myReactiveForm.get('characters').value" class="output-detail">
         {{ character }}
